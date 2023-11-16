@@ -1,0 +1,21 @@
+.logo{
+    width: 15rem;
+}
+form {
+    display: flex;
+    margin: 7rem ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-email{
+
+}
+
+.form-pass{
+
+}
+
+.button{
+    
+}

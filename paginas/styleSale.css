@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: 'Comic Neue', cursive;
+}
+.navbar-brand{
+    margin-left: 45%;
+   }
+           
+   .navbar-brand {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+    .barra{
+    background-color:rgb(245, 203, 239);
+}
+  .barra a.nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Estilos cuando se pasa el cursor sobre los enlaces */
+  .barra a.nav-link:hover {
+    color: rgb(212, 0, 255); /* Cambia el color al pasar el cursor */
+    text-decoration: underline; /* Puedes subrayar el enlace */
+  }
+      
+  .socialsB{
+   padding-top: 1rem;
+    margin-right:10rem;
+    cursor: pointer;
+    display: flex;
+  } 
+  .container-fluid{
+     background-color: rgb(245, 203, 239);
+  }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+   
+  }
+  .logo {
+    width: 15rem;
+  }
+  
+  .fondo {
+    width: 25rem;
+  }
+  
+  .iconos {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    flex-direction: row-reverse;
+   }
+  
+  .icono {
+    width: 2rem;
+    cursor: pointer;
+    margin: 0 1.5rem;
+  }
+  .button{
+    text-align: center;
+    padding-bottom: 1rem
+}
+.card-body{
+    text-align: center;
+}
+
+footer {
+    
+  display: flex;
+  background-color: rgb(245, 203, 239);
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+ .socialsF{
+    display: flex;
+    justify-content: center;
+   
+   
+ }
+ 
+ .socialsF li {
+    margin: auto 10px;
+   
+ }
+
+
+ ul li{
+   text-align: center;
+    list-style: none;
+   
+ }
+ 
+ .informacion{
+   text-align: center;
+    margin: auto 10px;
+    
+ }
+ .nosotros{
+   text-align: center;
+    margin: auto 10px;
+    
+ }
+ 
+ div.redes{
+   text-align: center;
+    margin: auto 10px;
+ }
+ 
+.logoFinal{
+   width: 10rem;
+   padding-right: 3rem;
+ }
